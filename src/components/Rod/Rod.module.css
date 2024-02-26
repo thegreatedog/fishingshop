@@ -1,0 +1,51 @@
+.loading {
+  text-align: center;
+  margin: 10%;
+}
+
+.name {
+  margin-left: 20px;
+}
+
+.rod-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+
+  margin: 0 auto;
+}
+
+.rod-container img {
+  margin-left: 20px;
+  width: 20%;
+  height: 20%;
+}
+
+.description {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.description span {
+  font-size: 20px;
+  color: brown;
+  text-decoration: underline;
+}
+
+.description h2 {
+  margin-top: 20px;
+}
+
+.rod-container button {
+  width: 100px;
+  height: 30px;
+  background-color: aquamarine;
+
+  transition: background-color 0.2s linear;
+}
+
+.rod-container button:hover {
+  cursor: pointer;
+  background-color: rgb(73, 175, 141);
+}

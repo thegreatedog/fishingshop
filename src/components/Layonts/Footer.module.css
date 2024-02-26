@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  height: 200px;
+
+  border: 10px solid black;
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+.contacts {
+  padding-top: 20px;
+  width: 300px;
+  height: 180px;
+}
+
+.rights {
+  padding-top: 70px;
+  width: 300px;
+  height: 180px;
+}
